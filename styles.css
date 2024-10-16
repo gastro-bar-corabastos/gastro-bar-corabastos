@@ -18,16 +18,9 @@ header {
 .left-side {
     display: flex; /* Flexbox para alinear elementos dentro de la parte izquierda */
     flex-direction: column; /* Colocar los elementos en columna */
-    align-items: flex-start; /* Alinear a la izquierda */
-    text-align: left; /* Alinear texto a la izquierda */
+    align-items: center; /* Alinear a la izquierda */
+    text-align: center; /* Alinear texto a la izquierda */
 }
-
-.title {
-    font-size: 50px; /* Tamaño de la fuente para El Cantinazo */
-    font-weight: bold; /* Negrita */
-    margin: 0; /* Sin margen inferior para acercarlo a la descripción */
-}
-
 /* Estilos para el texto del medio */
 .middle-text {
     text-align: center; /* Centrar el texto horizontalmente */
@@ -39,22 +32,46 @@ header {
     font-weight: bold; /* Negrita */
 }
 
-/* Estilos para el nombre de whisky */
 .right-side {
-    display: flex; /* Flexbox para la parte derecha */
-    align-items: center; /* Alinear verticalmente al centro */
+    display: flex; /* Flexbox para alinear elementos dentro de la parte izquierda */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Alinear a la izquierda */
+    text-align: center; /* Alinear texto a la izquierda */
 }
+
+.description-title {
+    margin-top: 0px; /* Ajustar el espacio entre El Cantinazo y Gastro Bar */
+}
+
+.title {
+    font-size: 50px; /* Tamaño de la fuente para El Cantinazo */
+    font-weight: bold; /* Negrita */
+    margin: 0; /* Sin margen inferior para acercarlo a la descripción */
+}
+
+
+.subtitle {
+    font-size: 20px; /* Tamaño de la fuente para Gastro Bar */
+    font-weight: bold; /* Negrita */
+    margin-top: 0px; /* Elimina el margen superior para que quede pegado */
+}
+
 
 .whisky {
     font-size: 50px; /* Tamaño de la fuente para Buchanan's */
     font-weight: bold; /* Negrita */
     margin: 0; /* Sin márgenes para mantenerlo alineado */
 }
-
+.subtitle2 {
+    font-size: 20px; /* Tamaño de la fuente para Gastro Bar */
+    font-weight: bold; /* Negrita */
+    margin-top: 0px; /* Elimina el margen superior para que quede pegado */
+    align-items: center; /* Alinear verticalmente al centro */
+}
 /* Estilos para el video */
 .video-container {
     width: 100%; /* El video ocupa el 100% del ancho de la página */
-    height: 60vh; /* El video ocupa el 60% de la altura de la ventana */
+    height: 80vh; /* El video ocupa el 60% de la altura de la ventana */
     overflow: hidden; /* Evitar que el video sobresalga */
     position: relative; /* Asegura que el video esté en el flujo de la página */
 }
@@ -64,6 +81,7 @@ header {
     height: 100%; /* El video se ajusta al 100% de la altura del contenedor */
     object-fit: cover; /* Mantener proporción del video, llenando el área */
 }
+
 
 /* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
@@ -76,25 +94,19 @@ header {
         align-items: center; /* Centrar el contenido de la parte izquierda */
     }
 
-    .title {
-        font-size: 30px; /* Reducir tamaño de fuente para El Cantinazo */
-        margin-bottom: 10px; /* Espacio adicional */
+    .title, .whisky {
+        font-size: 30px; /* Reducir tamaño de fuente para móviles */
     }
 
     .name {
-        font-size: 20px; /* Ajustar tamaño de la fuente para Karen */
-    }
-
-    .whisky {
-        font-size: 30px; /* Reducir tamaño de fuente para Buchanan's */
-        margin: 0; /* Sin márgenes para mantenerlo alineado */
-    }
-
-    .video-container {
-        height: 50vh; /* Ajustar altura del video para pantallas pequeñas */
+        font-size: 24px; /* Ajustar tamaño de la fuente para Karen */
     }
 
     .subtitle {
         font-size: 16px; /* Ajustar tamaño de fuente para Gastro Bar */
+    }
+
+    .video-container {
+        height: 50vh; /* Ajustar altura del video para pantallas pequeñas */
     }
 }
