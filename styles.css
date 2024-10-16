@@ -81,3 +81,32 @@ header {
     height: 100%; /* El video se ajusta al 100% de la altura del contenedor */
     object-fit: cover; /* Mantener proporción del video, llenando el área */
 }
+
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambiar la dirección a columna para móviles */
+        align-items: center; /* Centrar elementos en la columna */
+    }
+
+    .left-side {
+        align-items: center; /* Centrar el contenido de la parte izquierda */
+    }
+
+    .title, .whisky {
+        font-size: 30px; /* Reducir tamaño de fuente para móviles */
+    }
+
+    .name {
+        font-size: 24px; /* Ajustar tamaño de la fuente para Karen */
+    }
+
+    .subtitle {
+        font-size: 16px; /* Ajustar tamaño de fuente para Gastro Bar */
+    }
+
+    .video-container {
+        height: 50vh; /* Ajustar altura del video para pantallas pequeñas */
+    }
+}
