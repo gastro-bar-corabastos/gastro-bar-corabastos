@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    margin: 0; /* Sin márgenes en el cuerpo */
+    font-family: 'Copperplate Gothic Light', sans-serif; /* Fuente utilizada */
+}
+
+header {
+    background-color: #f8f8f8; /* Color de fondo del encabezado */
+    padding: 20px; /* Espaciado interno */
+}
+
+.container {
+    display: flex; /* Usar flexbox para el contenedor */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start; /* Alinear verticalmente al inicio */
+}
+
+.left-side {
+    display: flex; /* Flexbox para alinear elementos dentro de la parte izquierda */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Alinear a la izquierda */
+    text-align: center; /* Alinear texto a la izquierda */
+}
+/* Estilos para el texto del medio */
+.middle-text {
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.name {
+    font-size: 30px; /* Tamaño de la fuente para Karen */
+    font-weight: bold; /* Negrita */
+}
+
+.right-side {
+    display: flex; /* Flexbox para alinear elementos dentro de la parte izquierda */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Alinear a la izquierda */
+    text-align: center; /* Alinear texto a la izquierda */
+}
+
+.description-title {
+    margin-top: 0px; /* Ajustar el espacio entre El Cantinazo y Gastro Bar */
+}
+
+.title {
+    font-size: 50px; /* Tamaño de la fuente para El Cantinazo */
+    font-weight: bold; /* Negrita */
+    margin: 0; /* Sin margen inferior para acercarlo a la descripción */
+}
+
+
+.subtitle {
+    font-size: 20px; /* Tamaño de la fuente para Gastro Bar */
+    font-weight: bold; /* Negrita */
+    margin-top: 0px; /* Elimina el margen superior para que quede pegado */
+}
+
+
+.whisky {
+    font-size: 50px; /* Tamaño de la fuente para Buchanan's */
+    font-weight: bold; /* Negrita */
+    margin: 0; /* Sin márgenes para mantenerlo alineado */
+}
+.subtitle2 {
+    font-size: 20px; /* Tamaño de la fuente para Gastro Bar */
+    font-weight: bold; /* Negrita */
+    margin-top: 0px; /* Elimina el margen superior para que quede pegado */
+    align-items: center; /* Alinear verticalmente al centro */
+}
+/* Estilos para el video */
+.video-container {
+    width: 100%; /* El video ocupa el 100% del ancho de la página */
+    height: 80vh; /* El video ocupa el 60% de la altura de la ventana */
+    overflow: hidden; /* Evitar que el video sobresalga */
+    position: relative; /* Asegura que el video esté en el flujo de la página */
+}
+
+.video-container video {
+    width: 100%; /* El video se ajusta al 100% del ancho de la página */
+    height: 100%; /* El video se ajusta al 100% de la altura del contenedor */
+    object-fit: cover; /* Mantener proporción del video, llenando el área */
+}
