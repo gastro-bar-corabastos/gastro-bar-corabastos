@@ -44,26 +44,26 @@ header {
 }
 
 .title {
-    font-size: 50px; /* Tamaño de la fuente para El Cantinazo */
+    font-size: 3em; /* Tamaño de la fuente para El Cantinazo */
     font-weight: bold; /* Negrita */
     margin: 0; /* Sin margen inferior para acercarlo a la descripción */
 }
 
 
 .subtitle {
-    font-size: 20px; /* Tamaño de la fuente para Gastro Bar */
+    font-size: 1.5em; /* Tamaño de la fuente para Gastro Bar */
     font-weight: bold; /* Negrita */
     margin-top: 0px; /* Elimina el margen superior para que quede pegado */
 }
 
 
 .whisky {
-    font-size: 50px; /* Tamaño de la fuente para Buchanan's */
+    font-size: 3em; /* Tamaño de la fuente para Buchanan's */
     font-weight: bold; /* Negrita */
     margin: 0; /* Sin márgenes para mantenerlo alineado */
 }
 .subtitle2 {
-    font-size: 20px; /* Tamaño de la fuente para Gastro Bar */
+    font-size: 1.5em; /* Tamaño de la fuente para Gastro Bar */
     font-weight: bold; /* Negrita */
     margin-top: 0px; /* Elimina el margen superior para que quede pegado */
     align-items: center; /* Alinear verticalmente al centro */
